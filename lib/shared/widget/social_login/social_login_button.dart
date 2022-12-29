@@ -16,7 +16,8 @@ class SocialLoginButton extends StatelessWidget {
           decoration: BoxDecoration(
               color: AppColors.shape,
               borderRadius: BorderRadius.circular(5),
-              border: Border.fromBorderSide(BorderSide(color: AppColors.stroke))),
+              border:
+                  Border.fromBorderSide(BorderSide(color: AppColors.stroke))),
           child: Row(
             children: [
               Expanded(
@@ -42,7 +43,7 @@ class SocialLoginButton extends StatelessWidget {
                     children: [
                       Text(
                         "Entrar com Google",
-                        style: TextStyles.buttonGrey,
+                        style: TextStyles.buttonGray,
                       ),
                     ],
                   ))
